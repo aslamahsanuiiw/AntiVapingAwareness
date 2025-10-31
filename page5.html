@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teen Voices</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      margin: 10px 0;
+      font-weight: 700;
+    }
+
+    h1 { font-size: 2.5rem; color: #007BFF; }
+    h2 { font-size: 2rem; color: #0056b3; }
+    h3 { font-size: 1.5rem; color: #333; }
+
+    p { margin: 10px 0; }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* Floating buttons */
+    .bottom-left, .bottom-right {
+      position: fixed;
+      bottom: 20px;
+      z-index: 1000;
+    }
+    .bottom-left { left: 20px; }
+    .bottom-right { right: 20px; }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 8px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Step layout */
+    .steps {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin: 40px 0;
+    }
+
+    .step {
+      background-color: #f8f9fa;
+      flex: 1 1 45%;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      min-width: 300px;
+    }
+
+    .step img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    .final-step {
+      background-color: #f8f9fa;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 500px;
+      margin: 30px auto;
+    }
+
+    /* Video section */
+    .video-section {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .video-section img {
+      width: 70%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      margin: 40px 0;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <center><h1>Teen Voices</h1></center>
+    <center>
+      <p style="font-size: 20px;">
+        Many teens start vaping out of curiosity or peer pressure. One puff can turn into a habit and dependence.
+        This page shares real stories and experiences of teens.
+      </p>
+      <p style="font-size: 20px;">
+        No lectures here — just honest, emotional accounts from those who got hooked without realizing it.
+      </p>
+    </center>
+
+    <center><h2>Step by Step: How Teens Fall Into the Vaping Trap</h2></center>
+
+    <!-- Steps 1 & 2 -->
+    <div class="steps">
+      <div class="step">
+        <h3>Step 1: Curiosity</h3>
+        <img src="images/pg5step1.jpeg" alt="Step 1 Image">
+        <p>I see it everywhere online. Everyone’s doing it — can it really be that bad?</p>
+      </div>
+      <div class="step">
+        <h3>Step 2: Social Pressure</h3>
+        <img src="images/pg5step2.jpeg" alt="Step 2 Image">
+        <p>Friends offer it; don’t want to seem lame or scared.</p>
+      </div>
+    </div>
+
+    <!-- Steps 3 & 4 -->
+    <div class="steps">
+      <div class="step">
+        <h3>Step 3: First Try</h3>
+        <img src="images/pg5step3.jpeg" alt="Step 3 Image">
+        <p>It was just one puff at a party. No big deal… right?</p>
+      </div>
+      <div class="step">
+        <h3>Step 4: Regular Use</h3>
+        <img src="images/pg5step4.jpeg" alt="Step 4 Image">
+        <p>Keep one in my bag, often without noticing.</p>
+      </div>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="final-step">
+      <h3>Step 5: Dependence</h3>
+      <img src="images/pg5step5.jpeg" alt="Step 5 Image">
+      <p>Anxious without it, hard to focus, addicted.</p>
+    </div>
+
+    <hr>
+
+    <center><h2>Tell Us What You Think</h2></center>
+    <center>
+      <h3>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeR1YLA6K9o3pXUO82B_sWtozeVGR5LJYJog8zARSlj47qarQ/viewform?pli=1">
+          Speak Out About Vaping
+        </a>
+      </h3>
+    </center>
+
+    <hr>
+
+    <center><h2>Real Teens. Real Stories.</h2></center>
+    <div class="video-section">
+      <img src="images/pg5ytvid.jpeg" alt="Video Thumbnail">
+      <p><a href="https://www.youtube.com/watch?v=JXVXt2X1PKU" style="font-size: 22px;">▶ Watch this video to learn more</a></p>
+      <p style="font-size: 20px;">Real teens share their experiences with vaping and its impacts on health and daily life.</p>
+    </div>
+
+    <center>
+      <h3><a href="https://www.parentsagainstvaping.org/personal/jacob-story">Read More About Teen Stories</a></h3>
+    </center>
+
+  </div>
+
+  <!-- Floating Buttons -->
+  <div class="bottom-left">
+    <a href="page4.html"><button>Back</button></a>
+  </div>
+  <div class="bottom-right">
+    <a href="page6.html"><button>Next: Laws and Regulation</button></a>
+  </div>
+  <div style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 1000;">
+    <a href="index.html">
+      <div style="padding: 15px 30px; font-size: 18px; font-weight: 600; border-radius: 10px; background-color: #007BFF; color: white; cursor: pointer; text-align: center;">
+        Home
+      </div>
+    </a>
+  </div>
+<br><br><br>
+</body>
+</html>
